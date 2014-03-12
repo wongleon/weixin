@@ -1,0 +1,147 @@
+body{
+	font-family: 微软雅黑;
+	margin: 0 auto;
+	padding: 0 0;
+	background-color: #F6F6F6;
+}
+a{
+	text-decoration: none;
+
+}
+
+ul{
+	list-style: none;
+	padding: 0 0;
+	margin: 10px 0;
+}
+img{
+	width: 150px;
+	height: 200px;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0 0;
+	padding: 0 0;
+}
+strong{
+	font-size: 15px;
+	color: #575757;
+}
+.main{
+	margin: 0 auto;
+	width: 1000px;
+}
+#header{
+	height: 90px;
+	border-top:5px solid #22AAEE;
+	background-color: #ffffff;
+}
+#logo{
+	height: 90px;
+	float: left;
+	width: 30%;
+}
+#nav{
+	height: 90px;
+	float: left;
+	width: 70%;
+}
+.item_a{
+	color: #999999;
+	font-weight:bold;
+}
+.item_a:hover{
+	color: #666666;
+}
+.item_a_visited{
+	color: #22AAEE;	
+}
+.item{
+	padding-top: 30px;
+	height: 59px;
+	width: 100px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+.item:hover{
+	background-color: #f9f9f9;
+	border-bottom:1px solid #22AAEE;
+}
+.item_visited{
+	border-bottom:1px solid #22AAEE;
+}
+#search{
+	margin: 30px 0 0 30px;
+}
+#search_btn{
+	font-family: 微软雅黑;
+	background-color: #22AAEE;
+	height: 22px;
+	border:none;
+	cursor: pointer;
+	color: white;
+}
+.detail{
+	width: 700px;
+	float: left;
+}
+.film{
+	height: 230px;
+	margin: 5px 0;
+	padding: 10px 10px;
+	background-color: #ffffff;
+}
+.film_img{
+	width: 150px;
+	height: 250px;
+	float: left;
+}
+.film_update_time{
+	font-size: 12px;
+	color: #575757;
+	text-align: center;
+	margin-top: 10px;
+}
+#film_title a{
+	color: #3D3D3D;
+	font-size: 20px;
+}
+#film_title a:hover{
+	color: #22AAEE;
+}
+.detail_style{
+	margin-left: 15px;
+	float: left;
+	width: 500px;
+	font-size: 15px;
+	color: #575757;
+	margin-top: 2px;
+}
+.film_discuss{
+	font-size: 12px;
+	float: left;
+	width: 500px;
+	margin: 55px 0 0 10px;
+	text-align: right;
+}
+.side{
+	width: 270px;
+	height: 485px;
+	margin-top: 15px;
+	padding: 10px 10px;
+	float: right;
+	background-color: white;
+}
+.hot{
+	width: 25%;	
+	height: 25px;
+	float: left;
+	text-align: center; 
+}
+.hot:hover{
+	border-bottom: 2px solid #22AAEE;
+	cursor: pointer;
+}
+.hot_visited{
+	border-bottom: 2px solid #22AAEE;
+}
