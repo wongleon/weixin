@@ -1,0 +1,62 @@
+body, h1, h2, h3, ul, li {
+	padding:0; 
+	margin:0;
+}
+
+body {
+	font-size:14px; 
+	font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	background:url(../images/weixin_bg0ec594.jpg) repeat-x;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.left{
+	float: left;
+}
+.container{
+	width: 968px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+.logo{
+	margin-top: 9px;	
+}
+.head{
+	height: 75px;
+}
+.nav {
+	float: right;
+	padding-top: 21px;
+}
+.nav li {
+	float: left;
+}
+.nav a {
+	display: inline-block;
+	padding-left:16px;
+	margin: 0 2px;
+	line-height: 33px;
+	color: #FFFFFF;
+}
+.nav a span {
+	display: inline-block;
+	padding-right: 16px;
+	cursor: pointer;
+}
+.nav a.curr{
+	font-weight: bold;
+	background: url(../images/weixin_icon0ec594.png) no-repeat scroll 0 -192px;
+}
+.nav a.curr span{
+	background: url(../images/weixin_icon0ec594.png) no-repeat scroll right -192px;
+}
+.nav a:hover{
+	background: url(../images/weixin_icon0ec594.png) no-repeat scroll 0 -144px;
+}
+.nav a:hover span{
+	background: url(../images/weixin_icon0ec594.png) no-repeat scroll right -144px;
+}

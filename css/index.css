@@ -1,0 +1,49 @@
+.info,.title,.intro_p {
+	font-family: "微软雅黑","黑体", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+.info{
+	margin-bottom: 44px;
+}
+.title{
+	padding: 45px 0 3px;
+	font-weight: normal;
+	font-size:26px;
+}
+.info_p {
+	margin: 0.33em 0;
+	font-size: 16px;
+	color: #979797;
+}
+.download_btn{
+	display: block;
+	margin-top: 15px;
+	width: 224px;
+	height: 64px;
+	background: url(../images/bt_i_down171a1e.png) no-repeat -1px 0px;
+}
+.download_btn:hover{
+	background-position:-1px -64px;
+}
+.phone_download{
+	display: block;
+	background: url(../images/bt_i_down171a1e.png) no-repeat -616px -4px;
+	width: 42px;
+	height: 44px;
+	margin-top: 25px;
+	margin-left: 19px;
+}
+.phone_download:hover{
+	background-position:-616px -56px;
+}
+.weixin_home_link{
+	clear: both;
+	padding-top: 15px;
+}
+.weixin_home_link span{
+	float: left;
+	margin: 10px 11px 0px 0px;
+	height: 6px;
+	width: 6px;
+	border-radius: 5px;
+	background-color: #999;
+}
