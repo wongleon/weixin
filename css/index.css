@@ -119,10 +119,16 @@ a:hover{
 	left: -40px;
 	background-position:-16px -59px;
 }
+.prev:hover{
+	background-position: -16px -12px;
+}
 .next{
 	top: -204px;
 	left: 490px;
 	background-position:-68px -59px;
+}
+.next:hover{
+	background-position: -68px -12px;
 }
 .prev_hide{
 	display: none;
