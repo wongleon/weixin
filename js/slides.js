@@ -2,7 +2,7 @@ $(function(){
 	$('#slides').slides({
 		preload: true,
 		generateNextPrev: false,
-		play: 5000
+		play: 4000
 	});
 	
 });

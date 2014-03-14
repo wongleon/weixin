@@ -5,7 +5,8 @@ a:hover{
 	font-family: "微软雅黑","黑体", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 .info{
-	margin-bottom: 44px;
+	margin-bottom: 47px;
+	height: 424px;
 }
 .title{
 	padding: 45px 0 3px;
@@ -50,12 +51,7 @@ a:hover{
 	border-radius: 5px;
 	background-color: #999;
 }
-.weixin_home_link a{
-	color:#609700;
-}
-.weixin_home_link a:hover{
-	color:#333;
-}
+
 .weixin_home_link li{
 	line-height: 1.8em;
 }
@@ -65,10 +61,9 @@ a:hover{
 .slides{
 	width: 490px;
 	height: 404px;
-	position: relative;
 	float: right;
-	top: -350px;
-	left: -60px;
+	margin-right: 60px;
+	margin-top: 7px;
 }
 .slides_container {
 	width:490px;
@@ -90,9 +85,12 @@ a:hover{
 	color: #000;
 	text-align: center;
 }
+.gray{
+	margin-right: 5px;
+}
 .gray a{
 	color: #609700;
-	margin-right: 8px;
+	margin-right: 4px;
 }
 .gray a:hover{
 	color:#333;
@@ -101,8 +99,6 @@ a:hover{
 	list-style:none;
 	margin:0;
 	padding:0;
-}
-.pagination .current a {
 }
 .next_prev{
 	position: relative;
@@ -151,8 +147,72 @@ a:hover{
 }
 .pagination{
 	position: absolute;
-	top: 380px;
-	left: 220px;
+	top: 462px;
+	left: 1079px;
+}
+/*slider-end*/
+.func{
+	float: left;
+	text-align: left;
+}
+ .func li{
+ 	float: left;
+	width: 216px;
+}
+.func li .pic{
+ 	display: block;
+ 	width: 200px;
+	height: 114px;
+	background-image: url(../images/weixin_func1c00a1.png);
+}
+.func_mac{
+	background-position: -217px 0;
+}
+.func_video{
+	background-position: -436px 0;
+}
+.func h2{
+	padding-top: 6px;
+	line-height: 1.5em;
+}
+.func p{
+	color: #999;
+	line-height: 1.5em;
+}
+.update_diary{
+	width: 318px;
+	float: left;
 }
 
-/*slider-end*/
+.update_diary li{
+	list-style: disc outside;
+	color: #999;
+	line-height: 1.8;
+	margin: 5px 0 0 13px;
+}
+.update_diary li a{
+	color: #609700;
+}
+.update_diary li a{
+	color: #609700;
+}
+.ico_contactus{
+	display: block;
+	width: 32px;
+	height: 32px;
+	float: left;
+	position: relative;
+	top: 14px;
+	left: 0;
+	background: url(../images/weixin_icon0ec594.png) no-repeat scroll 0 -240px;
+}
+.contactus{
+	display: block;
+	padding: 20px 0 0 40px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+}
+.contactus:hover{
+	text-decoration: none;
+}

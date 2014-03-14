@@ -2,7 +2,10 @@ body, h1, h2, h3, ul, li {
 	padding:0; 
 	margin:0;
 }
-
+h2{
+	font-size: 14px;
+	font-weight: bold;
+}
 body {
 	font-size:14px; 
 	font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
@@ -15,10 +18,13 @@ a{
 	text-decoration: none;
 }
 p{
-	margin: 0.3em 0;
+	margin: 0.33em 0;
 }
 .left{
 	float: left;
+}
+.right{
+	float: right;
 }
 .container{
 	width: 968px;
@@ -62,4 +68,10 @@ p{
 }
 .nav a:hover span{
 	background: url(../images/weixin_icon0ec594.png) no-repeat scroll right -144px;
+}
+.green_link{
+	color:#609700;
+}
+.green_link:hover{
+	color:#333;
 }
